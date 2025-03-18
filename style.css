@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+}
+
+.main-block {
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+.dancing-dog {
+    border: 5px solid white;
+}
+
+.song {
+    margin-top: 35px;
+    font-size: 13px;
+}
+
+.song-title {
+    margin-bottom: 12px;
+    text-decoration: none;
+    color: white;
+}
+
+/* Google Fonts */
+.libre-baskerville-bold {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+  
+.libre-baskerville-regular-italic {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: italic;
+}
