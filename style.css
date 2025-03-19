@@ -1,4 +1,8 @@
 body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
     background-color: black;
 }
 
@@ -10,6 +14,14 @@ body {
 
 h1 {
     text-transform: uppercase;
+}
+
+footer {
+    margin-top: auto;
+    color: white;
+    padding: 20px;
+    font-size: 10px;
+    text-align: center;
 }
 
 .dancing-dog {
