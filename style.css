@@ -4,24 +4,28 @@ body {
     flex-direction: column;
     margin: 0;
     background-color: black;
-}
-
-.main-block {
-    margin-top: 50px;
     text-align: center;
-    color: white;
 }
 
 h1 {
     text-transform: uppercase;
 }
 
-footer {
+.main-block {
+    margin-top: auto;
+    color: white;
+}
+
+.footer {
     margin-top: auto;
     color: white;
     padding: 20px;
     font-size: 10px;
-    text-align: center;
+}
+
+.footer-text {
+    width: 700px;
+    margin: 0 auto;
 }
 
 .dancing-dog {
@@ -34,8 +38,6 @@ footer {
 }
 
 .song-title {
-    margin-bottom: 12px;
-    text-decoration: none;
     color: white;
 }
 
