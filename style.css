@@ -1,40 +1,50 @@
 body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
     margin: 0;
     background-color: black;
-    text-align: center;
+    padding: 20px;
 }
 
 h1 {
     text-transform: uppercase;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+}
+
+.container > * {
+    margin: 0;
+}
+
 .main-block {
-    margin-top: auto;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: white;
 }
 
 .footer {
-    margin-top: auto;
+    justify-self: center;
+    text-align: center;
     color: white;
     padding: 20px;
     font-size: 10px;
+    max-width: 700px;
 }
 
-.footer-text {
-    width: 700px;
-    margin: 0 auto;
+.container.song {
+    margin-top: 1.5rem;
 }
 
 .dancing-dog {
     border: 5px solid white;
-}
-
-.song {
-    margin-top: 35px;
-    font-size: 13px;
 }
 
 .song-title {
